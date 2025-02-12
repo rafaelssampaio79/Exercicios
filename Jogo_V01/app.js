@@ -5,7 +5,7 @@
         let campo = document.querySelector(tag);
         campo.innerHTML = texto;
     };
-    
+    // COMENTÁRIO PARA VALIDAR CURSO GIT E GITHUB
     function exibirMensagemInicial() {
         exibirTextoNaTela('h1','Jogo do número secreto V01');
         exibirTextoNaTela('p','Escolha um número entre 1 e 10');

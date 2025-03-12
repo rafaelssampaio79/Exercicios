@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Version 2.0</title>
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_item" href="index.html">
+                HOME
+            </a>
+            <a class="cabecalho_menu_item" href="about.html">
+                Sobre MIM
+            </a>
+            <a class="cabecalho_menu_item" href="curriculum.html">
+                CURRICULUM
+            </a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao_conteudo">
@@ -22,15 +32,30 @@
                 Vamos conversar?
             </p>
             <div class="apresentacao_botoes">
-            <a class="apresentacao_botao" href="https://instagram.com/rafaballerini">Instagram</a>
-            <a class="apresentacao_botao" href="https://github.com/guilhermeonrails">Github</a>
+            <h2 class="apresentacao_botoes_subtitulo">
+                Acesse minhas redes:
+            </h2>
+            <a class="apresentacao_botao" href="https://github.com/guilhermeonrails">
+                <img src="./Imagens/github.png">
+                Github
+            </a>
+            <a class="apresentacao_botao" href="www.linkedin.com/in/rafael-schmidt-sampaio">
+                <img src="./Imagens/linkedin.png">
+                Linkedin
+            </a>
+            <a class="apresentacao_botao" href="https://twitch.tv/guilimadev">
+                <img src="./Imagens/twitch.png">
+                Twitch
+            </a>
             </div>
         </section>
         <img src="Imagem_V01.png" alt="Foto Imagem Figma">
 
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>
+            Desenvolvido por Rafael Sampaio
+        </p>
     </footer>
 </body>
 </html>

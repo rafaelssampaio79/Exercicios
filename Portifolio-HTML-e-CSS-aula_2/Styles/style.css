@@ -32,7 +32,7 @@ body{
 
 .cabecalho_menu_item{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -46,14 +46,14 @@ body{
 }
 
 .apresentacao_conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao_conteudo_titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -62,7 +62,7 @@ body{
 }
 
 .apresentacao_conteudo_paragrafo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -77,17 +77,17 @@ body{
 .apresentacao_botoes_subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao_botao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -101,12 +101,16 @@ body{
     padding: 3%;
 }
 
+.apresentacao_imagem{
+    width: 50%;
+}
+
 .rodape{
     padding: 24px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
